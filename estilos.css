@@ -9,7 +9,7 @@ body{
     width: 80%;
     margin: 10px auto;
 }
-
+  
 header{
     background: #B7B9B8;
 }
@@ -22,7 +22,7 @@ nav ul li{
     display: inline-block;
         margin: 0 10px;
         padding: 4px 10px;
-        border: 1px solid #fff;
+       border: 1px solid #fff;
         border-radius: 4px; 
 }
 
