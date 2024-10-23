@@ -1,0 +1,28 @@
+<!DOCTYPE html>  
+<html>
+    <head>
+        <title> Formulario</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilosFormularios.css">
+    </head>
+    <body>
+        <h1>FORMULARIO</h1>
+        <form action="Datos.php" method="post"></form>
+        Escribe tu nombre: <input type="text" id="nombre" size="30"  maxlength="30"/><br/>
+        Escribe tu apellido: <input type="text" id="apellido" size="30"  maxlength="30"/><br/>
+        Escribe tu contraseña: <input type="password" name="contraseña" size="20"/><br/>
+     
+       Deportes practicados: <br/>
+        <input type="checkbox" name="deportes" id="futbol" value="futbol" >
+        <label for="futbol">Futbol</label>
+        <input type="checkbox" name="deportes" id="baloncesto" value="baloncesto" >
+        <label for="baloncesto">Baloncesto</label>
+        <input type="checkbox" name="deportes" id="ciclismo" value="ciclismo" >
+        <label for="ciclismo">Ciclismo</label><br/>
+    
+        <input type="button" value="Guardar" onclick="guardarDatos">
+       <input type="reset" value="Borrar"><br/>
+        
+    </body>
+
+</html>

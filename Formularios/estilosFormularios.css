@@ -1,0 +1,10 @@
+html{
+    background: grey;
+}
+text{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 4px 10px;
+    border: 1px solid #fff;
+    border-radius: 4px; 
+}
